@@ -1,8 +1,58 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+
+
+//view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
+
+
+function addDepartment() {
+    return this.connection.promise().query(
+        "SELECT "
+    )
+};
+
+function addRole() {
+    return this.connection.promise().query(
+
+    )
+};
+
+function addEmployee() {
+    return this.connection.promise().query(
+
+    )
+};
 
 
 
-view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
+
+
+
+
+
+
+// function addRole(
+//     inquirer
+//         .prompt([
+//             {
+//                 type: 'input',
+//                 name: 'role',
+//                 message: 'Add a Role?'
+//             }
+//         ])
+// );
+
+// function addEmployee(
+//     inquirer
+//         .prompt([
+//             {
+//                 type: 'input',
+//                 name: 'newEmployee',
+//                 message: 'Add a New Employee?'
+//             }
+//         ])
+// );   
+
 
 /*
 inquirer
